@@ -1,0 +1,32 @@
+Page Ranks after 1st iteration
+Page = A, PageRank = 0.24930555555555556
+Page = B, PageRank = 0.11944444444444445
+Page = C, PageRank = 0.14305555555555555
+Page = D, PageRank = 0.13125
+Page = E, PageRank = 0.2138888888888889
+Page = F, PageRank = 0.14305555555555555
+
+********************************************
+
+Page Ranks after 10th iteration
+Page = A, PageRank = 0.25203637602817186
+Page = B, PageRank = 0.13930650918251083
+Page = C, PageRank = 0.15129376593475075
+Page = D, PageRank = 0.11896297277689881
+Page = E, PageRank = 0.18710661014291716
+Page = F, PageRank = 0.15129376593475075
+
+*********************************************
+Page Ranks after 100th iteration
+
+Page = A, PageRank = 0.2521271053751956
+Page = B, PageRank = 0.1393061853185386
+Page = C, PageRank = 0.1513064898667053
+Page = D, PageRank = 0.11890782257353921
+Page = E, PageRank = 0.18704590699931614
+Page = F, PageRank = 0.1513064898667053
+
+
+
+
+
