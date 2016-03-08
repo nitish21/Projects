@@ -1,0 +1,57 @@
+2015-12-02T04:48:46.435Z INFO startExec 'hadoop jar /var/lib/aws/emr/step-runner/hadoop-jars/command-runner.jar pig-script --run-pig-script --args -f s3://twitter-project-bucket/TrendingTopicByJoinFilterProjection.pig -p OUTPUT=s3://twitter-project-bucket/JoinFilterProjectionOutput/'
+2015-12-02T04:48:46.439Z INFO Environment:
+  TERM=linux
+  CONSOLETYPE=serial
+  SHLVL=5
+  JAVA_HOME=/etc/alternatives/jre
+  HADOOP_IDENT_STRING=hadoop
+  LANGSH_SOURCED=1
+  XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  AWS_CLOUDWATCH_HOME=/opt/aws/apitools/mon
+  UPSTART_JOB=rc
+  MAIL=/var/spool/mail/hadoop
+  EC2_AMITOOL_HOME=/opt/aws/amitools/ec2
+  AWS_RDS_HOME=/opt/aws/apitools/rds
+  PWD=/
+  HOSTNAME=ip-172-31-38-250
+  LESS_TERMCAP_se=[0m
+  LOGNAME=hadoop
+  UPSTART_INSTANCE=
+  AWS_PATH=/opt/aws
+  LESS_TERMCAP_mb=[01;31m
+  _=/etc/alternatives/jre/bin/java
+  LESS_TERMCAP_me=[0m
+  NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+  LESS_TERMCAP_md=[01;38;5;208m
+  runlevel=3
+  AWS_AUTO_SCALING_HOME=/opt/aws/apitools/as
+  UPSTART_EVENTS=runlevel
+  HISTSIZE=1000
+  previous=N
+  HADOOP_LOGFILE=syslog
+  PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/sbin:/opt/aws/bin
+  EC2_HOME=/opt/aws/apitools/ec2
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-5JQMQ88WY85M
+  LESS_TERMCAP_ue=[0m
+  AWS_ELB_HOME=/opt/aws/apitools/elb
+  RUNLEVEL=3
+  USER=hadoop
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-5JQMQ88WY85M/tmp
+  PREVLEVEL=N
+  HOME=/home/hadoop
+  HISTCONTROL=ignoredups
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  AWS_DEFAULT_REGION=us-west-2
+  LANG=en_US.UTF-8
+  LESS_TERMCAP_us=[04;38;5;111m
+2015-12-02T04:48:46.439Z INFO redirectOutput to /mnt/var/log/hadoop/steps/s-5JQMQ88WY85M/stdout
+2015-12-02T04:48:46.439Z INFO redirectError to /mnt/var/log/hadoop/steps/s-5JQMQ88WY85M/stderr
+2015-12-02T04:48:46.439Z INFO Working dir /mnt/var/lib/hadoop/steps/s-5JQMQ88WY85M
+2015-12-02T04:48:46.511Z INFO ProcessRunner started child process 5269 :
+hadoop    5269  2016  0 04:48 ?        00:00:00 bash /usr/lib/hadoop/bin/hadoop jar /var/lib/aws/emr/step-runner/hadoop-jars/command-runner.jar pig-script --run-pig-script --args -f s3://twitter-project-bucket/TrendingTopicByJoinFilterProjection.pig -p OUTPUT=s3://twitter-project-bucket/JoinFilterProjectionOutput/
+2015-12-02T04:48:46.514Z INFO Synchronously wait child process to complete : hadoop jar /var/lib/aws/emr/step-runner/hadoop-...
+2015-12-02T05:00:52.560Z INFO waitProcessCompletion ended with exit code 0 : hadoop jar /var/lib/aws/emr/step-runner/hadoop-...
+2015-12-02T05:00:52.560Z INFO total process run time: 726 seconds
+2015-12-02T05:00:52.666Z INFO Step created jobs: job_1449031541052_0001,job_1449031541052_0002,job_1449031541052_0003
+2015-12-02T05:00:52.666Z INFO Step succeeded with exitCode 0 and took 726 seconds

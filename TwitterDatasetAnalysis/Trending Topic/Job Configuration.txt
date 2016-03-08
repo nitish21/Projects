@@ -1,0 +1,11 @@
+There are total 4 variations of this job :
+
+> TrendingTopicByProjectionFilterJoin.pig
+> TrendingTopicByJoinFilterProjection.pig
+> TrendingTopicByFilterJoinProjection.pig
+> TrendingTopicByJoinFilter.pig
+
+Configuration for all the jobs :
+
+Master : 1   m1.large
+Core   : 10  m1.large
