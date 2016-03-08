@@ -1,0 +1,59 @@
+2015-12-06T00:47:17.124Z INFO startExec 'hadoop jar /mnt/var/lib/hadoop/steps/s-2X0O5EYUHU51Y/RecommendationNew.jar mapreduce.RecommendationJob2 s3://mapreduceproj/Job1Output/Job1MergedOutput.txt s3://mapreduceproj/Job2Output2'
+2015-12-06T00:47:17.128Z INFO Environment:
+  TERM=linux
+  CONSOLETYPE=serial
+  SHLVL=5
+  JAVA_HOME=/etc/alternatives/jre
+  HADOOP_IDENT_STRING=hadoop
+  LANGSH_SOURCED=1
+  XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  AWS_CLOUDWATCH_HOME=/opt/aws/apitools/mon
+  UPSTART_JOB=rc
+  MAIL=/var/spool/mail/hadoop
+  EC2_AMITOOL_HOME=/opt/aws/amitools/ec2
+  AWS_RDS_HOME=/opt/aws/apitools/rds
+  PWD=/
+  HOSTNAME=ip-172-31-12-34
+  LESS_TERMCAP_se=[0m
+  LOGNAME=hadoop
+  UPSTART_INSTANCE=
+  AWS_PATH=/opt/aws
+  LESS_TERMCAP_mb=[01;31m
+  _=/etc/alternatives/jre/bin/java
+  LESS_TERMCAP_me=[0m
+  NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+  LESS_TERMCAP_md=[01;38;5;208m
+  runlevel=3
+  AWS_AUTO_SCALING_HOME=/opt/aws/apitools/as
+  UPSTART_EVENTS=runlevel
+  HISTSIZE=1000
+  previous=N
+  HADOOP_LOGFILE=syslog
+  PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/sbin:/opt/aws/bin
+  EC2_HOME=/opt/aws/apitools/ec2
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-2X0O5EYUHU51Y
+  LESS_TERMCAP_ue=[0m
+  AWS_ELB_HOME=/opt/aws/apitools/elb
+  RUNLEVEL=3
+  USER=hadoop
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-2X0O5EYUHU51Y/tmp
+  PREVLEVEL=N
+  HOME=/home/hadoop
+  HISTCONTROL=ignoredups
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  AWS_DEFAULT_REGION=us-west-2
+  LANG=en_US.UTF-8
+  LESS_TERMCAP_us=[04;38;5;111m
+2015-12-06T00:47:17.129Z INFO redirectOutput to /mnt/var/log/hadoop/steps/s-2X0O5EYUHU51Y/stdout
+2015-12-06T00:47:17.129Z INFO redirectError to /mnt/var/log/hadoop/steps/s-2X0O5EYUHU51Y/stderr
+2015-12-06T00:47:17.129Z INFO Working dir /mnt/var/lib/hadoop/steps/s-2X0O5EYUHU51Y
+2015-12-06T00:47:17.242Z INFO ProcessRunner started child process 5778 :
+hadoop    5778  2019  0 00:47 ?        00:00:00 bash /usr/lib/hadoop/bin/hadoop jar /mnt/var/lib/hadoop/steps/s-2X0O5EYUHU51Y/RecommendationNew.jar mapreduce.RecommendationJob2 s3://mapreduceproj/Job1Output/Job1MergedOutput.txt s3://mapreduceproj/Job2Output2
+2015-12-06T00:47:17.245Z INFO Synchronously wait child process to complete : hadoop jar /mnt/var/lib/hadoop/steps/s-2X0O5EYU...
+2015-12-06T01:02:19.302Z INFO Process still running
+2015-12-06T01:17:21.369Z INFO Process still running
+2015-12-06T01:18:49.375Z INFO waitProcessCompletion ended with exit code 0 : hadoop jar /mnt/var/lib/hadoop/steps/s-2X0O5EYU...
+2015-12-06T01:18:49.376Z INFO total process run time: 1892 seconds
+2015-12-06T01:18:49.509Z INFO Step created jobs: job_1449362724531_0001
+2015-12-06T01:18:49.509Z INFO Step succeeded with exitCode 0 and took 1892 seconds
