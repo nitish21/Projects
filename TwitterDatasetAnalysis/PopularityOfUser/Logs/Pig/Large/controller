@@ -1,0 +1,57 @@
+2015-11-30T02:14:38.461Z INFO startExec 'hadoop jar /var/lib/aws/emr/step-runner/hadoop-jars/command-runner.jar pig-script --run-pig-script --args -f s3://bucketnits/MRProject/Job/popularityFinder.pig -p INPUT=s3://bucketnits/MRProject/Input/users.txt -p OUTPUT=s3://bucketnits/MRProject/Output/PigOutput/LargeConfig'
+2015-11-30T02:14:38.463Z INFO Environment:
+  TERM=linux
+  CONSOLETYPE=serial
+  SHLVL=5
+  JAVA_HOME=/etc/alternatives/jre
+  HADOOP_IDENT_STRING=hadoop
+  LANGSH_SOURCED=1
+  XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  AWS_CLOUDWATCH_HOME=/opt/aws/apitools/mon
+  UPSTART_JOB=rc
+  MAIL=/var/spool/mail/hadoop
+  EC2_AMITOOL_HOME=/opt/aws/amitools/ec2
+  AWS_RDS_HOME=/opt/aws/apitools/rds
+  PWD=/
+  HOSTNAME=ip-172-31-2-246
+  LESS_TERMCAP_se=[0m
+  LOGNAME=hadoop
+  UPSTART_INSTANCE=
+  AWS_PATH=/opt/aws
+  LESS_TERMCAP_mb=[01;31m
+  _=/etc/alternatives/jre/bin/java
+  LESS_TERMCAP_me=[0m
+  NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+  LESS_TERMCAP_md=[01;38;5;208m
+  runlevel=3
+  AWS_AUTO_SCALING_HOME=/opt/aws/apitools/as
+  UPSTART_EVENTS=runlevel
+  HISTSIZE=1000
+  previous=N
+  HADOOP_LOGFILE=syslog
+  PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/sbin:/opt/aws/bin
+  EC2_HOME=/opt/aws/apitools/ec2
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-1F7QD7588MH5A
+  LESS_TERMCAP_ue=[0m
+  AWS_ELB_HOME=/opt/aws/apitools/elb
+  RUNLEVEL=3
+  USER=hadoop
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-1F7QD7588MH5A/tmp
+  PREVLEVEL=N
+  HOME=/home/hadoop
+  HISTCONTROL=ignoredups
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  AWS_DEFAULT_REGION=us-west-2
+  LANG=en_US.UTF-8
+  LESS_TERMCAP_us=[04;38;5;111m
+2015-11-30T02:14:38.463Z INFO redirectOutput to /mnt/var/log/hadoop/steps/s-1F7QD7588MH5A/stdout
+2015-11-30T02:14:38.463Z INFO redirectError to /mnt/var/log/hadoop/steps/s-1F7QD7588MH5A/stderr
+2015-11-30T02:14:38.463Z INFO Working dir /mnt/var/lib/hadoop/steps/s-1F7QD7588MH5A
+2015-11-30T02:14:38.511Z INFO ProcessRunner started child process 16587 :
+hadoop   16587  2001  0 02:14 ?        00:00:00 bash /usr/lib/hadoop/bin/hadoop jar /var/lib/aws/emr/step-runner/hadoop-jars/command-runner.jar pig-script --run-pig-script --args -f s3://bucketnits/MRProject/Job/popularityFinder.pig -p INPUT=s3://bucketnits/MRProject/Input/users.txt -p OUTPUT=s3://bucketnits/MRProject/Output/PigOutput/LargeConfig
+2015-11-30T02:14:38.513Z INFO Synchronously wait child process to complete : hadoop jar /var/lib/aws/emr/step-runner/hadoop-...
+2015-11-30T02:17:12.527Z INFO waitProcessCompletion ended with exit code 0 : hadoop jar /var/lib/aws/emr/step-runner/hadoop-...
+2015-11-30T02:17:12.528Z INFO total process run time: 154 seconds
+2015-11-30T02:17:12.639Z INFO Step created jobs: job_1448846563462_0002
+2015-11-30T02:17:12.640Z INFO Step succeeded with exitCode 0 and took 154 seconds
